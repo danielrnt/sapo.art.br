@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sapo.art — Desenvolvimento & Arte Urbana</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">◉</span>
+        <span class="logo-text">sapo.art</span>
+      </a>
+      <nav class="main-nav">
+        <a href="#galeria">Galeria</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn-outline">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">
+        <span class="hero-art">Arte Urbana</span>
+        <span class="hero-dev">× Desenvolvimento</span>
+      </h1>
+      <p class="hero-sub">Criando experiências visuais que vivem tanto na parede quanto na tela.</p>
+      <div class="hero-actions">
+        <a href="#galeria" class="btn-primary">Ver obras</a>
+        <a href="#projetos" class="btn-outline">Ver projetos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA (PORTFÓLIO ARTÍSTICO) -->
+  <section id="galeria" class="galeria">
+    <div class="container">
+      <h2 class="section-title">Obras em Destaque</h2>
+      <div class="rel-grid">
+        <article class="obra-card" onclick="window.location.href='obra.html'">
+          <div class="obra-thumb">
+            <div class="obra-thumb-placeholder" style="background: linear-gradient(135deg, #2d4a2d 0%, #4a7c59 50%, #c8b06b 100%);"></div>
+          </div>
+          <div class="obra-card-info">
+            <p class="obra-card-titulo">Floresta Submarina #7</p>
+            <p class="obra-card-artista">Lara Moura</p>
+          </div>
+        </article>
+        <article class="obra-card" onclick="window.location.href='obra.html'">
+          <div class="obra-thumb">
+            <div class="obra-thumb-placeholder" style="background: linear-gradient(135deg, #3a2d10 0%, #7c6220 50%, #c8a83a 100%);"></div>
+          </div>
+          <div class="obra-card-info">
+            <p class="obra-card-titulo">Raízes do Cerrado</p>
+            <p class="obra-card-artista">Lara Moura</p>
+          </div>
+        </article>
+        <article class="obra-card" onclick="window.location.href='obra.html'">
+          <div class="obra-thumb">
+            <div class="obra-thumb-placeholder" style="background: linear-gradient(135deg, #1a3a1a 0%, #2d7c2d 60%, #7cd47c 100%);"></div>
+          </div>
+          <div class="obra-card-info">
+            <p class="obra-card-titulo">Bioma Atlântico #2</p>
+            <p class="obra-card-artista">Lara Moura</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS DEV -->
+  <section id="projetos" class="projetos">
+    <div class="container">
+      <h2 class="section-title">Projetos de Desenvolvimento</h2>
+      <div class="projetos-grid">
+        <div class="projeto-card">
+          <div class="projeto-thumb" style="background:#1a1a1a; height:160px; border-radius:8px;"></div>
+          <h3>sapo.art.br</h3>
+          <p>Portfólio com integração de galeria e sistema de vendas.</p>
+          <a href="https://github.com/danielrnt/sapo.art.br" target="_blank" class="btn-outline">Ver código</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2 class="section-title">Sobre mim</h2>
+      <div class="sobre-content">
+        <p>Desenvolvedor front-end de dia, muralista de noite. Transformo códigos e paredes em narrativas visuais.</p>
+        <div class="skills">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

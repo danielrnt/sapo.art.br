@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floresta Submarina #7 — sapo.art</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="obra.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">◉</span>
+        <span class="logo-text">sapo.art</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html#galeria">Galeria</a>
+        <a href="index.html#artistas">Artistas</a>
+        <a href="#">Sobre</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#" class="btn-outline">Entrar</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb-bar">
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="index.html">Galeria</a>
+        <span class="bc-sep">›</span>
+        <a href="index.html#categorias">Ilustração</a>
+        <span class="bc-sep">›</span>
+        <span>Floresta Submarina #7</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- OBRA DETAIL -->
+  <main class="obra-detail">
+    <div class="container obra-layout">
+
+      <!-- IMAGEM -->
+      <div class="obra-visual">
+        <div class="obra-main-img" id="obra-main-img"
+          style="background: linear-gradient(135deg, #2d4a2d 0%, #4a7c59 50%, #c8b06b 100%);">
+          <button class="zoom-btn" id="zoom-btn" aria-label="Ampliar imagem">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="7.5" cy="7.5" r="5.5" stroke="currentColor" stroke-width="1.4"/>
+              <line x1="12" y1="12" x2="16" y2="16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <line x1="5.5" y1="7.5" x2="9.5" y2="7.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <line x1="7.5" y1="5.5" x2="7.5" y2="9.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+        <div class="obra-thumbs">
+          <button class="thumb active" data-gradient="linear-gradient(135deg, #2d4a2d 0%, #4a7c59 50%, #c8b06b 100%)" aria-label="Vista 1"></button>
+          <button class="thumb" data-gradient="linear-gradient(160deg, #1a3320 0%, #2d6b4a 60%, #a8c878 100%)" aria-label="Vista 2"></button>
+          <button class="thumb" data-gradient="linear-gradient(110deg, #4a7c59 0%, #c8b06b 50%, #2d4a2d 100%)" aria-label="Vista 3"></button>
+        </div>
+      </div>
+
+      <!-- INFO -->
+      <div class="obra-info">
+        <div class="obra-meta-top">
+          <span class="obra-cat-badge">Ilustração</span>
+          <span class="obra-disponivel">● Disponível</span>
+        </div>
+
+        <h1 class="obra-nome">Floresta Submarina #7</h1>
+
+        <a href="artista.html" class="obra-artista-link">
+          <div class="artista-mini-avatar" style="background:#3b5c3b;"></div>
+          <div>
+            <p class="artista-mini-nome">Lara Moura</p>
+            <p class="artista-mini-sub">24 obras · São Paulo, SP</p>
+          </div>
+        </a>
+
+        <div class="obra-divider"></div>
+
+        <p class="obra-descricao">
+          Sétima obra da série "Florestas Submersos", que explora a fronteira imaginária entre o que cresce sob a terra e o que flutua sob a água. Técnica mista digital com aquarela digitalizada e composição vetorial.
+        </p>
+
+        <div class="obra-specs">
+          <div class="spec-item">
+            <span class="spec-label">Formato</span>
+            <span class="spec-val">Arquivo digital · PNG 4K</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label">Resolução</span>
+            <span class="spec-val">3840 × 3840 px</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label">Edição</span>
+            <span class="spec-val">1 de 5 cópias</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label">Licença</span>
+            <span class="spec-val">Uso pessoal e decorativo</span>
+          </div>
+        </div>
+
+        <div class="obra-divider"></div>
+
+        <div class="obra-compra">
+          <div class="preco-bloco">
+            <span class="preco-label">Valor</span>
+            <span class="preco-valor">R$ 480</span>
+          </div>
+          <button class="btn-comprar-full" id="btn-abrir-modal">Adquirir obra</button>
+        </div>
+
+        <p class="obra-info-extra">
+          Entrega imediata após confirmação do pagamento. Arquivo em alta resolução enviado por e-mail.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- OBRAS RELACIONADAS -->
+  <section class="relacionadas">
+    <div class="container">
+      <h2 class="rel-titulo">Mais de <em>Lara Moura</em></h2>
+      <div class="rel-grid">
+        <article class="obra-card">
+          <div class="obra-thumb">
+            <div class="obra-thumb-placeholder" style="background: linear-gradient(135deg, #3a2d10 0%, #7c6220 50%, #c8a83a 100%);"></div>
+          </div>
+          <div class="obra-card-info">
+            <div>
+              <p class="obra-card-titulo">Raízes do Cerrado</p>
+              <p class="obra-card-artista">Lara Moura</p>
+            </div>
+            <p class="obra-card-preco">R$ 550</p>
+          </div>
+        </article>
+        <article class="obra-card">
+          <div class="obra-thumb">
+            <div class="obra-thumb-placeholder" style="background: linear-gradient(135deg, #1a3a1a 0%, #2d7c2d 60%, #7cd47c 100%);"></div>
+          </div>
+          <div class="obra-card-info">
+            <div>
+              <p class="obra-card-titulo">Bioma Atlântico #2</p>
+              <p class="obra-card-artista">Lara Moura</p>
+            </div>
+            <p class="obra-card-preco">R$ 390</p>
+          </div>
+        </article>
+        <article class="obra-card">
+          <div class="obra-thumb">
+            <div class="obra-thumb-placeholder" style="background: linear-gradient(135deg, #0d2b1a 0%, #1a6a3a 50%, #7cc8a0 100%);"></div>
+          </div>
+          <div class="obra-card-info">
+            <div>
+              <p class="obra-card-titulo">Broto #11</p>
+              <p class="obra-card-artista">Lara Moura</p>
+            </div>
+            <p class="obra-card-preco">R$ 320</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL DE COMPRA -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+    <div class="modal-box">
+      <button class="modal-fechar" id="modal-fechar" aria-label="Fechar">✕</button>
+
+      <div class="modal-obra-resumo">
+        <div class="modal-thumb" style="background: linear-gradient(135deg, #2d4a2d 0%, #4a7c59 50%, #c8b06b 100%);"></div>
+        <div>
+          <p class="modal-obra-titulo">Floresta Submarina #7</p>
+          <p class="modal-obra-artista">Lara Moura</p>
+          <p class="modal-obra-preco">R$ 480</p>
+        </div>
+      </div>
+
+      <div class="modal-divider"></div>
+
+      <h2 id="modal-titulo" class="modal-heading">Seus dados</h2>
+
+      <div class="modal-form">
+        <div class="form-group">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" placeholder="Seu nome">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="seu@email.com">
+        </div>
+        <div class="form-group">
+          <label for="telefone">WhatsApp (opcional)</label>
+          <input type="tel" id="telefone" placeholder="(11) 99999-9999">
+        </div>
+      </div>
+
+      <div class="modal-divider"></div>
+
+      <div class="modal-total">
+        <span>Total</span>
+        <span class="modal-total-val">R$ 480</span>
+      </div>
+
+      <button class="btn-confirmar" id="btn-confirmar">Confirmar interesse</button>
+      <p class="modal-nota">A artista entrará em contato para finalizar o pagamento.</p>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-fechar" id="lightbox-fechar" aria-label="Fechar">✕</button>
+    <div class="lightbox-img" id="lightbox-img"
+      style="background: linear-gradient(135deg, #2d4a2d 0%, #4a7c59 50%, #c8b06b 100%);"></div>
+  </div>
+
+  <!-- SUCESSO -->
+  <div class="toast" id="toast">Interesse registrado! Lara Moura entrará em contato em breve.</div>
+
+  <script src="script.js"></script>
+  <script src="obra.js"></script>
+</body>
+</html>
