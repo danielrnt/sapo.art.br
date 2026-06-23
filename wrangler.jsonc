@@ -1,7 +1,10 @@
 {
   "name": "sapo-art-br",
-  "compatibility_date": "2026-06-19",
+  "compatibility_date": "2026-06-23",
   "assets": {
     "directory": "./"
-  }
+  },
+  "routes": [
+    { "pattern": "sapo.art.br", "custom_domain": true }
+  ]
 }
