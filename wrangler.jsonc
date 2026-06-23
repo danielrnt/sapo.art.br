@@ -5,6 +5,7 @@
     "directory": "./"
   },
   "routes": [
-    { "pattern": "sapo.art.br", "custom_domain": true }
+    { "pattern": "sapo.art.br", "custom_domain": true },
+    { "pattern": "www.sapo.art.br", "custom_domain": true }
   ]
 }
